@@ -142,6 +142,7 @@ h6 {
   }
   .custom-sub-flex {
     width: 30%;
+    margin-bottom: 2rem;
   }
 
   .custom-sub-flex img:hover {
@@ -323,7 +324,7 @@ h6 {
   margin: -77px 0 0 -57px;
   border-radius: 100%;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .8), 0 4px 5px rgba(107, 5, 0, .6), 0 0 50px 50px rgba(255, 255, 255, .25);
-  background-image: url(http://0.gravatar.com/avatar/fa4df8540bab3cb38f7dfa60c6e0522c?size=2000);
+  background-image: url(../img/expert_adarsh_mishra.jpg);
   background-size: contain;
   position: absolute;
   z-index: 1;
@@ -493,7 +494,7 @@ h6 {
 
  
 
- @media (max-width:580px) {
+ @media (max-width:740px) {
   .phone-only {
     display: block;
   }
@@ -562,41 +563,41 @@ h6 {
     left: 0;
     height: 100px;
     background: rgba(0,0,0,0.44);
-    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,1));
-    background: -webkit-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,1));
-    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,1));
-    background: -o-linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,1));
-    background: -ms-linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,1));
-    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,1));
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+    background: -webkit-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+    background: -o-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+    background: -ms-linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
     
 }
 .div-1 {
-  background: url('https://arcticwild.com/wp-content/themes/arcticwild/assets/img/trips/home-raft.jpg')no-repeat;
+  background: url(../img/trek.png)no-repeat;
   background-position: center center;
   background-size:cover;
 }
 .div-2 {
-  background: url('https://arcticwild.com/wp-content/themes/arcticwild/assets/img/trips/home-basecamp.jpg')no-repeat;
+  background: url(../img/food.jpeg)no-repeat;
   background-position: center center;
   background-size:cover;
 }
 .div-3 {
-  background: url('https://arcticwild.com/wp-content/themes/arcticwild/assets/img/trips/home-backpacking.jpg')no-repeat;
+  background: url(../img/safari.jpeg)no-repeat;
   background-position: center center;
   background-size:cover;
 }
 .div-4 {
-  background: url('https://arcticwild.com/wp-content/themes/arcticwild/assets/img/trips/home-canoe.jpg')no-repeat;
+  background: url(../img/local.jpeg)no-repeat;
   background-position: center center;
   background-size:cover;
 }
 .div-5 {
-  background: url('https://arcticwild.com/wp-content/themes/arcticwild/assets/img/trips/home-photo.jpg')no-repeat;
+  background: url(../img/water-sport.png)no-repeat;
   background-position: center center;
   background-size:cover;
 }
 .div-6 {
-  background: url('https://arcticwild.com/wp-content/themes/arcticwild/assets/img/trips/home-custom.jpg')no-repeat;
+  background: url(../img/wellness.jpeg)no-repeat;
   background-position: center center;
   background-size:cover;
 }
@@ -610,7 +611,9 @@ h6 {
   position: absolute;
   overflow: hidden;
   top: 0;
-  left: 0
+  left: 0;
+  display: flex;
+  align-items: center;
 }
 
 .card-hover-custom h2 {
@@ -619,7 +622,7 @@ h6 {
   text-align: center;
   position: relative;
   /* font-size: 17px; */
-  font-family: Raleway, serif;
+  /* font-family: Raleway, serif; */
   padding: 10px;
   /*background: rgba(0, 0, 0, 0.8);*/
   margin: 20px 0 0 0
@@ -683,6 +686,10 @@ h6 {
 
 .card-hover-custom:hover .mask-edit {
   opacity: 1;
+}
+
+.card-hover-custom:hover .trip-text {
+  display: none;
 }
 
 .card-hover-custom:hover h2,
