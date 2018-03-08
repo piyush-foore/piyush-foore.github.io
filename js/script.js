@@ -1,5 +1,15 @@
 jQuery(document).ready(function($) {
     new WOW().init();
+
+    var scrollBtn = $('.smooth-scroll');
+
+    //smooth scrolling
+    scrollBtn.click(function(e) {
+      $('body,html').animate({
+       scrollTop: -($(this.hash).offset().top)
+      },1000);
+ 
+    });
     
 $('.carousel').carousel();
 
