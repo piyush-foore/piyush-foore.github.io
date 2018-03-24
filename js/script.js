@@ -2,11 +2,55 @@ jQuery(document).ready(function($) {
     new WOW().init();
 
     var scrollBtn = $('.smooth-scroll');
-
     //smooth scrolling
     scrollBtn.click(function(e) {
       $('body,html').animate({
        scrollTop: -($(this.hash).offset().top)
+      },1000);
+ 
+    });
+
+    var cruiseScroll = $('.cruise-scroll');
+    //smooth scrolling
+    cruiseScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
+      },1000);
+ 
+    });
+
+    var trekkingScroll = $('.trekking-scroll');
+    //smooth scrolling
+    trekkingScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
+      },1000);
+ 
+    });
+
+    var adventureScroll = $('.adventure-scroll');
+    //smooth scrolling
+    adventureScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
+      },1000);
+ 
+    });
+
+    var travelPackageScroll = $('.travel-pacakage-scroll');
+    //smooth scrolling
+    travelPackageScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
+      },1000);
+ 
+    });
+
+    var honeymoonScroll = $('.honeymoon-scroll');
+    //smooth scrolling
+    honeymoonScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
       },1000);
  
     });

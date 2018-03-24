@@ -42,7 +42,7 @@ h6 {
 }
 
 .card {
-  background-color: rgba(126, 123, 215, 0.2);
+  /* background-color: rgba(126, 123, 215, 0.2); */
 }
 
 .md-form label {
@@ -708,3 +708,76 @@ h6 {
 }
 
  /*image gallery*/
+
+ /* common css */
+
+/* package card css */
+.travel-card {
+  border-radius:0px;
+  border: 1px solid #ddd !important;
+  box-shadow:none !important;
+}
+.card-header {
+border-radius:0px !important;
+}
+.baner {
+  height:175px;
+  width:100%
+}
+.baner img {
+  border-radius:0px;
+  width:100%;
+  height:100%;
+}
+.travel-card p {
+  font-size:0.8rem;
+}
+.stops span {
+  font-size:0.8rem;
+}
+.custom-package-flex {
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.package-price  {
+  background-color: rgb(66, 133, 244);
+  border-radius:50%;
+  padding:10px;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 1rem;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.travel-card .card-body ul li p {
+  margin-bottom: 0.2rem;
+}
+
+.btn-floating {
+  width: 47px;
+  height: 47px;
+  position: relative;
+  z-index: 1;
+  vertical-align: middle;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  margin: 10px;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media (max-width:780px) {
+  .custom-package-flex {
+    padding-left:1.28rem;
+  }
+}
+/* package card css */
+
+ /* common css */
