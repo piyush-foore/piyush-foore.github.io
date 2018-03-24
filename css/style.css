@@ -757,6 +757,11 @@ border-radius:0px !important;
   margin-bottom: 0.2rem;
 }
 
+.travel-card .card-header {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
 .btn-floating {
   width: 47px;
   height: 47px;
