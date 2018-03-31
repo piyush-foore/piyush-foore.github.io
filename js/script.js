@@ -54,7 +54,43 @@ jQuery(document).ready(function($) {
       },1000);
  
     });
+
+    var foodTourScroll = $('.food-tour-scroll');
+    //smooth scrolling
+    foodTourScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
+      },1000);
+ 
+    });
+
+    var safariScroll = $('.safari-scroll');
+    //smooth scrolling
+    safariScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
+      },1000);
+ 
+    });
+
+    var waterTourScroll = $('.water-tour-scroll');
+    //smooth scrolling
+    waterTourScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
+      },1000);
+ 
+    });
     
+    var hotelScroll = $('.hotel-scroll');
+    //smooth scrolling
+    hotelScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
+      },1000);
+ 
+    });
+
 $('.carousel').carousel();
 
     // $('#card').hover(function(){
