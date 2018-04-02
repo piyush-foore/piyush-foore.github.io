@@ -81,6 +81,33 @@ jQuery(document).ready(function($) {
       },1000);
  
     });
+
+    var soloTourScroll = $('.solo-tour-scroll');
+    //smooth scrolling
+    soloTourScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
+      },1000);
+ 
+    });
+
+    var localTourScroll = $('.local-tour-scroll');
+    //smooth scrolling
+    localTourScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
+      },1000);
+ 
+    });
+
+    var wellnessScroll = $('.wellness-scroll');
+    //smooth scrolling
+    wellnessScroll.click(function(e) {
+      $('body,html').animate({
+       scrollTop: ($(this.hash).offset().top)
+      },1000);
+ 
+    });
     
     var hotelScroll = $('.hotel-scroll');
     //smooth scrolling
